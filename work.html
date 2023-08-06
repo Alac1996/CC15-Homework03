@@ -3,85 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Works</title>
+    <title>work</title>
     <style>
       * {
         box-sizing: border-box;
       }
-      /* body {
-        display: flex;
-        flex-direction: column;
-      } */
+
       .navbar {
         display: flex;
         justify-content: flex-end;
-        /* border: solid 1px black; */
+        height: 150px;
       }
-
-      a {
-        display: inline;
-        text-decoration: none !important;
+      nav a {
+        text-decoration: none;
+        color: black;
       }
 
       .container {
-        min-height: 100vh;
-        width: 600px;
+        width: 800px;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        /* border: solid 1px black; */
-        margin-left: 150px;
-        align-items: start;
+        justify-content: center;
+        align-items: flex-start;
       }
 
-      h1 {
+      .box {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .pic {
+        display: flex;
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .pic img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+      }
+
+      .content {
+        margin-left: 50px;
+      }
+
+      hr {
+        border: 0.5px solid silver;
+        width: 100%;
+      }
+
+      .copyright {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 50px;
-      }
-      h4 {
-        font-family: Georgia, "Times New Roman", Times, serif;
-        color: silver;
-      }
-      h2,
-      h4,
-      p {
-        margin-left: 50px;
-      }
-      hr {
-        margin: 30px 20px;
       }
 
-      .top_pic {
-        display: flex;
-        position: absolute;
-      }
-
-      .top_pic img {
-        height: 300px;
-        width: 200px;
-        padding: 30px 30px;
-        margin: auto;
-        border-radius: 5%;
-      }
-
-      img {
-        width: 5%;
-        margin: 6px;
+      .logo img {
+        width: 50px;
       }
 
       .logo {
+        width: 40%;
         display: flex;
-        justify-content: center;
-      }
-
-      .credit {
-        display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
       }
     </style>
   </head>
-
   <body>
     <div class="navbar">
       <nav>
@@ -95,131 +86,146 @@
     <div class="container">
       <h1>Work</h1>
       <br />
-      <div class="top_featured">
-        <div class="top_pic"></div>
-        <div class="top_descript">
-          <h2>Certified Hogwartz wizard</h2>
-
-          <h4>Dashboard</h4>
-          <div class="box" style="display: flex">
-            <div>
-              <img
-                src="/pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
-                alt="Hogwartz"
-                style="width: 75px; margin-left: 30px"
-              />
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Iure modi atque nisi aspernatur?
-                Libero voluptatem neque magnam, alias consectetur quasi! Lorem
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem
-              </p>
-            </div>
-          </div>
-          <hr />
+      <br />
+      <div class="box">
+        <div class="pic">
+          <img
+            src="./pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
+            alt="hogwarts"
+          />
         </div>
-        <div class="top_descript">
-          <h2>Certified Hogwartz wizard</h2>
-
-          <h4>Dashboard</h4>
-          <div class="box" style="display: flex">
-            <div>
-              <img
-                src="/pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
-                alt="Hogwartz"
-                style="width: 75px; margin-left: 30px"
-              />
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Iure modi atque nisi aspernatur?
-                Libero voluptatem neque magnam, alias consectetur quasi! Lorem
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem
-              </p>
-            </div>
-          </div>
-          <hr />
-        </div>
-        <div class="top_descript">
-          <h2>Certified Hogwartz wizard</h2>
-
-          <h4>Dashboard</h4>
-          <div class="box" style="display: flex">
-            <div>
-              <img
-                src="/pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
-                alt="Hogwartz"
-                style="width: 75px; margin-left: 30px"
-              />
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Iure modi atque nisi aspernatur?
-                Libero voluptatem neque magnam, alias consectetur quasi! Lorem
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem
-              </p>
-            </div>
-          </div>
-          <hr />
-        </div>
-        <div class="top_descript">
-          <h2>Certified Hogwartz wizard</h2>
-
-          <h4>Dashboard</h4>
-          <div class="box" style="display: flex">
-            <div>
-              <img
-                src="/pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
-                alt="Hogwartz"
-                style="width: 75px; margin-left: 30px"
-              />
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Iure modi atque nisi aspernatur?
-                Libero voluptatem neque magnam, alias consectetur quasi! Lorem
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
-                modi atque nisi aspernatur? Libero voluptatem neque magnam,
-                alias consectetur quasi! Lorem
-              </p>
-            </div>
-          </div>
-          <hr />
+        <div class="content">
+          <h2>Certified Hogwarts wizard</h2>
+          <h3
+            style="
+              display: inline;
+              border-radius: 5px;
+              background-color: indigo;
+              color: white;
+            "
+          >
+            2020
+          </h3>
+          &nbsp; &nbsp; &nbsp;
+          <h3 style="display: inline; color: silver">Dashboard</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod
+            laudantium! Quas, voluptate? Dolorem velit dicta beatae deleniti
+            sint? Voluptates, a! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore minus voluptates praesentium ea voluptate
+            voluptatem esse blanditiis veniam magni dicta?
+          </p>
         </div>
       </div>
-
-      <div class="copyright">
-        <div class="logo">
-          <img src="/pics/facebook-svgrepo-com.svg" alt="facebook" />
-          <img src="/pics/instagram-svgrepo-com.svg" alt="instagram" />
-          <img src="/pics/twitter-154-svgrepo-com.svg" alt="twitter" />
-          <img src="/pics/linkedin-rounded-svgrepo-com.svg" alt="linkedin" />
+      <hr />
+      <div class="box">
+        <div class="pic">
+          <img
+            src="./pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
+            alt="hogwarts"
+          />
         </div>
-        <br />
-        <div class="credit">
-          <footer style="font-size: 16px">
-            Copyright @2020 All right reserved
-          </footer>
+        <div class="content">
+          <h2>Certified Hogwarts wizard</h2>
+          <h3
+            style="
+              display: inline;
+              border-radius: 5px;
+              background-color: indigo;
+              color: white;
+            "
+          >
+            2020
+          </h3>
+          &nbsp; &nbsp; &nbsp;
+          <h3 style="display: inline; color: silver">Dashboard</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod
+            laudantium! Quas, voluptate? Dolorem velit dicta beatae deleniti
+            sint? Voluptates, a! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore minus voluptates praesentium ea voluptate
+            voluptatem esse blanditiis veniam magni dicta?
+          </p>
         </div>
+      </div>
+      <hr />
+      <div class="box">
+        <div class="pic">
+          <img
+            src="./pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
+            alt="hogwarts"
+          />
+        </div>
+        <div class="content">
+          <h2>Certified Hogwarts wizard</h2>
+          <h3
+            style="
+              display: inline;
+              border-radius: 5px;
+              background-color: indigo;
+              color: white;
+            "
+          >
+            2020
+          </h3>
+          &nbsp; &nbsp; &nbsp;
+          <h3 style="display: inline; color: silver">Dashboard</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod
+            laudantium! Quas, voluptate? Dolorem velit dicta beatae deleniti
+            sint? Voluptates, a! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore minus voluptates praesentium ea voluptate
+            voluptatem esse blanditiis veniam magni dicta?
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="box">
+        <div class="pic">
+          <img
+            src="./pics/HD-wallpaper-hogwarts-legacy-harry-harry-potter-potter.jpeg"
+            alt="hogwarts"
+          />
+        </div>
+        <div class="content">
+          <h2>Certified Hogwarts wizard</h2>
+          <h3
+            style="
+              display: inline;
+              border-radius: 5px;
+              background-color: indigo;
+              color: white;
+            "
+          >
+            2020
+          </h3>
+          &nbsp; &nbsp; &nbsp;
+          <h3 style="display: inline; color: silver">Dashboard</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod
+            laudantium! Quas, voluptate? Dolorem velit dicta beatae deleniti
+            sint? Voluptates, a! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore minus voluptates praesentium ea voluptate
+            voluptatem esse blanditiis veniam magni dicta?
+          </p>
+        </div>
+      </div>
+      <hr />
+      <br />
+      <br />
+    </div>
+    <div class="copyright">
+      <div class="logo">
+        <img src="/pics/facebook-svgrepo-com.svg" alt="facebook" />
+        <img src="/pics/instagram-svgrepo-com.svg" alt="instagram" />
+        <img src="/pics/twitter-154-svgrepo-com.svg" alt="twitter" />
+        <img src="/pics/linkedin-rounded-svgrepo-com.svg" alt="linkedin" />
+      </div>
+      <br />
+      <div class="credit">
+        <footer style="font-size: 16px">
+          Copyright @2020 All right reserved
+        </footer>
       </div>
     </div>
   </body>
